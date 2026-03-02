@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local database / outputs
+*.db
+output.csv
+output.json
+
+# Mac
+.DS_Store
