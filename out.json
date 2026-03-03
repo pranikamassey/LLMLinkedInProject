@@ -1,0 +1,142 @@
+[
+  {
+    "company": "Google",
+    "location": "United States",
+    "part1_recruiting_rules": [
+      {
+        "name": "Gayatri Iyer",
+        "title_snippet": "Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",
+        "profile_url": "https://www.linkedin.com/in/gayatri-iyer-a6884a14/",
+        "why_matched": [
+          "matched: \\btalent acquisition\\b",
+          "matched: \\brecruiter\\b",
+          "aligned: \\bplatform\\b",
+          "aligned: \\bcloud\\b",
+          "aligned: \\bai\\b|\\bml\\b|\\bmachine learning\\b",
+          "matched: company mention"
+        ],
+        "confidence": 0.978,
+        "message_300": "",
+        "source": "rules",
+        "llm_is_match": null
+      },
+      {
+        "name": "Suraj S.",
+        "title_snippet": "Suraj S. - Talent Acquisition Specialist - Concept Software & Services INC | LinkedIn IT Recruiter @ Concept Software &amp; Services | Talent Acquisition Specialist | Shaping the Career of Talents · Seasoned Talent Acquisition Specialist with extensive experience managing the full recruitment lifecycle for US-based clients, including sourcing, screening, interviewing, and hiring ...",
+        "profile_url": "https://www.linkedin.com/in/snelsur/",
+        "why_matched": [
+          "matched: \\btalent acquisition\\b",
+          "matched: \\brecruiter\\b",
+          "aligned: \\bsoftware\\b",
+          "matched: US location"
+        ],
+        "confidence": 0.93,
+        "message_300": "",
+        "source": "rules",
+        "llm_is_match": null
+      }
+    ],
+    "part1_recruiting_llm": [
+      {
+        "name": "Gayatri Iyer",
+        "title_snippet": "Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",
+        "profile_url": "https://www.linkedin.com/in/gayatri-iyer-a6884a14/",
+        "why_matched": [
+          "at Google",
+          "Talent Acquisition",
+          "AI/ML"
+        ],
+        "confidence": 0.9,
+        "message_300": "I’m Gayatri Iyer with extensive experience in Talent Acquisition at Google Cloud, specializing in hiring for AI/ML talent and engineering leadership. Currently pursuing initiatives for building strong talent pipelines.",
+        "source": "llm",
+        "llm_is_match": false
+      },
+      {
+        "name": "Karishma Buxani Stauder",
+        "title_snippet": "Karishma Buxani Stauder - Research Scientist Recruiter - Google | LinkedIn • <strong>Full lifecycle recruiter engaging Research Scientists globally from quantum, machine learning, NLP, LLM, CV backgrounds and more</strong>. • Strategize with engineering hiring managers and other stakeholders on growing Google&#x27;s research community.",
+        "profile_url": "https://www.linkedin.com/in/kbuxani/",
+        "why_matched": [
+          "at Google",
+          "Research Scientist Recruiter",
+          "Full lifecycle recruiter"
+        ],
+        "confidence": 0.85,
+        "message_300": "I’m Karishma Buxani Stauder, a Research Scientist Recruiter at Google, engaging talent in fields like Quantum, ML, and NLP by collaborating closely with engineering stakeholders.",
+        "source": "llm",
+        "llm_is_match": false
+      }
+    ],
+    "part2_senior_engineers_rules": [
+      {
+        "name": "Alex Tessmer",
+        "title_snippet": "Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",
+        "profile_url": "https://www.linkedin.com/in/alex-tessmer-24347b4/",
+        "why_matched": [
+          "matched: \\bstaff software engineer\\b",
+          "matched: \\btech lead\\b|\\btechnical lead\\b",
+          "matched: \\bsenior\\b",
+          "matched: \\bstaff\\b",
+          "aligned: \\bsoftware\\b",
+          "aligned: \\bengineer\\b",
+          "aligned: \\bplatform\\b",
+          "matched: company mention",
+          "matched: US location"
+        ],
+        "confidence": 0.995,
+        "message_300": "",
+        "source": "rules",
+        "llm_is_match": null
+      },
+      {
+        "name": "John F.",
+        "title_snippet": "John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.",
+        "profile_url": "https://www.linkedin.com/in/john-franco/",
+        "why_matched": [
+          "matched: \\bstaff software engineer\\b",
+          "matched: \\btech lead\\b|\\btechnical lead\\b",
+          "matched: \\bsoftware architect\\b|\\barchitect\\b",
+          "matched: \\bsenior\\b",
+          "matched: \\bstaff\\b",
+          "aligned: \\bsoftware\\b",
+          "aligned: \\bengineer\\b",
+          "matched: company mention"
+        ],
+        "confidence": 0.995,
+        "message_300": "",
+        "source": "rules",
+        "llm_is_match": null
+      }
+    ],
+    "part2_senior_engineers_llm": [
+      {
+        "name": "Alex Tessmer",
+        "title_snippet": "Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",
+        "profile_url": "https://www.linkedin.com/in/alex-tessmer-24347b4/",
+        "why_matched": [
+          "Google",
+          "Senior Staff Software Engineer",
+          "United States",
+          "Tech Lead Manager"
+        ],
+        "confidence": 0.9,
+        "message_300": "I am Alex Tessmer, a Senior Staff Software Engineer and Tech Lead Manager at Google in the United States. I specialize in cross-platform applications, particularly with Flutter and Swift. I am excited about solutions that enhance productivity and efficiency.",
+        "source": "llm",
+        "llm_is_match": false
+      },
+      {
+        "name": "John F.",
+        "title_snippet": "John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.",
+        "profile_url": "https://www.linkedin.com/in/john-franco/",
+        "why_matched": [
+          "Google",
+          "Senior Staff Software Engineer",
+          "Tech Lead"
+        ],
+        "confidence": 0.9,
+        "message_300": "I’m John F., a Senior Staff Software Engineer and Tech Lead at Google. My focus is on leading software development strategies that optimize product performance in cloud computing environments.",
+        "source": "llm",
+        "llm_is_match": false
+      }
+    ]
+  }
+]
