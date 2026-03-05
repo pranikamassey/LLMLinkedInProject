@@ -12,6 +12,7 @@ from .normalize import normalize_results_to_candidates, dedup_candidates
 from .scoring import rank_candidates, diversify_top
 from .store import Store
 from .llm_reranker_openai import rerank_with_openai
+from .llm_message_personalizer import personalize_message_with_llm
 
 
 NON_US_RE = re.compile(
@@ -68,8 +69,12 @@ def run_for_company(
     llm_k: int = 2,
 ) -> Dict[str, Any]:
     qp = build_queries(company=company, location=location, role_focus=role_focus)
-
-    # Search
+    # TODO: replace these later with your real details
+    MY_NAME = "ABC"
+    MY_EMAIL = "abc@gmail.com"
+    ME_BLURB = "ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University"
+    ME_BLURB_LONG = "I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks."
+        # Search
     part1_results: List[Dict[str, Any]] = []
     for q in qp.part1_queries:
         part1_results.extend(client.search(q, count=per_query_count, country="US"))
@@ -121,7 +126,15 @@ def run_for_company(
                 "profile_url": cand.url,
                 "why_matched": sc.why_matched,
                 "confidence": round(float(sc.confidence), 3),
-                "message_300": "",
+                "message_300": personalize_message_with_llm(
+                "recruiter",
+                name=_guess_name_from_title(cand.raw_title) or "there",
+                company=company,
+                me_blurb=ME_BLURB,
+                me_blurb_long=ME_BLURB_LONG,
+                my_name=MY_NAME,
+                my_email=MY_EMAIL,
+            ),
                 "source": "rules",
                 "llm_is_match": None,
             }
@@ -137,7 +150,15 @@ def run_for_company(
                 "profile_url": cand.url,
                 "why_matched": sc.why_matched,
                 "confidence": round(float(sc.confidence), 3),
-                "message_300": "",
+                "message_300": personalize_message_with_llm(
+                "senior",
+                name=_guess_name_from_title(cand.raw_title) or "there",
+                company=company,
+                me_blurb=ME_BLURB,
+                me_blurb_long=ME_BLURB_LONG,
+                my_name=MY_NAME,
+                my_email=MY_EMAIL,
+            ),
                 "source": "rules",
                 "llm_is_match": None,
             }
@@ -152,7 +173,15 @@ def run_for_company(
                 "profile_url": item["url"],
                 "why_matched": item.get("llm_why_matched", []),
                 "confidence": round(float(item.get("llm_confidence", 0.0)), 3),
-                "message_300": item.get("llm_message_300", ""),
+                "message_300": personalize_message_with_llm(
+                "recruiter",
+                name=_guess_name_from_title(item.get("title", "")) or "there",
+                company=company,
+                me_blurb=ME_BLURB,
+                me_blurb_long=ME_BLURB_LONG,
+                my_name=MY_NAME,
+                my_email=MY_EMAIL,
+            ),
                 "source": "llm",
                 "llm_is_match": bool(item.get("llm_is_match", False)),
             }
@@ -167,7 +196,15 @@ def run_for_company(
                 "profile_url": item["url"],
                 "why_matched": item.get("llm_why_matched", []),
                 "confidence": round(float(item.get("llm_confidence", 0.0)), 3),
-                "message_300": item.get("llm_message_300", ""),
+                "message_300": personalize_message_with_llm(
+                "senior",
+                name=_guess_name_from_title(item.get("title", "")) or "there",
+                company=company,
+                me_blurb=ME_BLURB,
+                me_blurb_long=ME_BLURB_LONG,
+                my_name=MY_NAME,
+                my_email=MY_EMAIL,
+            ),
                 "source": "llm",
                 "llm_is_match": bool(item.get("llm_is_match", False)),
             }

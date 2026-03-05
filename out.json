@@ -16,7 +16,7 @@
           "matched: company mention"
         ],
         "confidence": 0.978,
-        "message_300": "",
+        "message_300": "Hi Gayatri Iyer,  \nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  \n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  \n\nThank you for your time. I’d be glad to stay connected.  \n\nBest regards,  \nABC  \nabc@gmail.com",
         "source": "rules",
         "llm_is_match": null
       },
@@ -31,7 +31,7 @@
           "matched: US location"
         ],
         "confidence": 0.93,
-        "message_300": "",
+        "message_300": "Hi Suraj S.,\nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.\n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.\n\nThank you for your time. I’d be glad to stay connected.\n\nBest regards,\nABC\nabc@gmail.com",
         "source": "rules",
         "llm_is_match": null
       }
@@ -44,10 +44,10 @@
         "why_matched": [
           "at Google",
           "Talent Acquisition",
-          "AI/ML"
+          "US"
         ],
-        "confidence": 0.9,
-        "message_300": "I’m Gayatri Iyer with extensive experience in Talent Acquisition at Google Cloud, specializing in hiring for AI/ML talent and engineering leadership. Currently pursuing initiatives for building strong talent pipelines.",
+        "confidence": 0.85,
+        "message_300": "Hi Gayatri Iyer,  \nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  \n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  \n\nThank you for your time. I’d be glad to stay connected.  \n\nBest regards,  \nABC  \nabc@gmail.com",
         "source": "llm",
         "llm_is_match": false
       },
@@ -58,10 +58,10 @@
         "why_matched": [
           "at Google",
           "Research Scientist Recruiter",
-          "Full lifecycle recruiter"
+          "US"
         ],
         "confidence": 0.85,
-        "message_300": "I’m Karishma Buxani Stauder, a Research Scientist Recruiter at Google, engaging talent in fields like Quantum, ML, and NLP by collaborating closely with engineering stakeholders.",
+        "message_300": "Hi Karishma Buxani Stauder,  \nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  \n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  \n\nThank you for your time. I’d be glad to stay connected.  \n\nBest regards,  \nABC  \nabc@gmail.com",
         "source": "llm",
         "llm_is_match": false
       }
@@ -83,7 +83,7 @@
           "matched: US location"
         ],
         "confidence": 0.995,
-        "message_300": "",
+        "message_300": "Hi Alex Tessmer,  \nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  \n  \nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  \n  \nThank you so much for your time. I’d truly value your guidance.  \n  \nBest regards,  \nABC",
         "source": "rules",
         "llm_is_match": null
       },
@@ -102,7 +102,7 @@
           "matched: company mention"
         ],
         "confidence": 0.995,
-        "message_300": "",
+        "message_300": "Hi John F.,\nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.\n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.\n\nThank you so much for your time. I’d truly value your guidance.\n\nBest regards,\nABC",
         "source": "rules",
         "llm_is_match": null
       }
@@ -113,13 +113,12 @@
         "title_snippet": "Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",
         "profile_url": "https://www.linkedin.com/in/alex-tessmer-24347b4/",
         "why_matched": [
-          "Google",
           "Senior Staff Software Engineer",
-          "United States",
-          "Tech Lead Manager"
+          "at Google",
+          "United States"
         ],
-        "confidence": 0.9,
-        "message_300": "I am Alex Tessmer, a Senior Staff Software Engineer and Tech Lead Manager at Google in the United States. I specialize in cross-platform applications, particularly with Flutter and Swift. I am excited about solutions that enhance productivity and efficiency.",
+        "confidence": 1.0,
+        "message_300": "Hi Alex Tessmer,  \nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  \n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  \n\nThank you so much for your time. I’d truly value your guidance.  \n\nBest regards,  \nABC",
         "source": "llm",
         "llm_is_match": false
       },
@@ -128,12 +127,12 @@
         "title_snippet": "John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.",
         "profile_url": "https://www.linkedin.com/in/john-franco/",
         "why_matched": [
-          "Google",
           "Senior Staff Software Engineer",
-          "Tech Lead"
+          "Tech Lead",
+          "Google"
         ],
-        "confidence": 0.9,
-        "message_300": "I’m John F., a Senior Staff Software Engineer and Tech Lead at Google. My focus is on leading software development strategies that optimize product performance in cloud computing environments.",
+        "confidence": 1.0,
+        "message_300": "Hi John F.,\nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.\n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.\n\nThank you so much for your time. I’d truly value your guidance.\n\nBest regards,\nABC",
         "source": "llm",
         "llm_is_match": false
       }

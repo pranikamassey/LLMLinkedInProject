@@ -1,9 +1,77 @@
 company,location,bucket,source,name,confidence,profile_url,title_snippet,why_matched,llm_is_match,message_300
-Google,United States,part1_recruiting_rules,rules,Gayatri Iyer,0.978,https://www.linkedin.com/in/gayatri-iyer-a6884a14/,"Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",matched: \btalent acquisition\b | matched: \brecruiter\b | aligned: \bplatform\b | aligned: \bcloud\b | aligned: \bai\b|\bml\b|\bmachine learning\b | matched: company mention,,
-Google,United States,part1_recruiting_rules,rules,Suraj S.,0.93,https://www.linkedin.com/in/snelsur/,"Suraj S. - Talent Acquisition Specialist - Concept Software & Services INC | LinkedIn IT Recruiter @ Concept Software &amp; Services | Talent Acquisition Specialist | Shaping the Career of Talents · Seasoned Talent Acquisition Specialist with extensive experience managing the full recruitment lifecycle for US-based clients, including sourcing, screening, interviewing, and hiring ...",matched: \btalent acquisition\b | matched: \brecruiter\b | aligned: \bsoftware\b | matched: US location,,
-Google,United States,part1_recruiting_llm,llm,Gayatri Iyer,0.9,https://www.linkedin.com/in/gayatri-iyer-a6884a14/,"Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",at Google | Talent Acquisition | AI/ML,False,"I’m Gayatri Iyer with extensive experience in Talent Acquisition at Google Cloud, specializing in hiring for AI/ML talent and engineering leadership. Currently pursuing initiatives for building strong talent pipelines."
-Google,United States,part1_recruiting_llm,llm,Karishma Buxani Stauder,0.85,https://www.linkedin.com/in/kbuxani/,"Karishma Buxani Stauder - Research Scientist Recruiter - Google | LinkedIn • <strong>Full lifecycle recruiter engaging Research Scientists globally from quantum, machine learning, NLP, LLM, CV backgrounds and more</strong>. • Strategize with engineering hiring managers and other stakeholders on growing Google&#x27;s research community.",at Google | Research Scientist Recruiter | Full lifecycle recruiter,False,"I’m Karishma Buxani Stauder, a Research Scientist Recruiter at Google, engaging talent in fields like Quantum, ML, and NLP by collaborating closely with engineering stakeholders."
-Google,United States,part2_senior_engineers_rules,rules,Alex Tessmer,0.995,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | aligned: \bplatform\b | matched: company mention | matched: US location,,
-Google,United States,part2_senior_engineers_rules,rules,John F.,0.995,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsoftware architect\b|\barchitect\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | matched: company mention,,
-Google,United States,part2_senior_engineers_llm,llm,Alex Tessmer,0.9,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",Google | Senior Staff Software Engineer | United States | Tech Lead Manager,False,"I am Alex Tessmer, a Senior Staff Software Engineer and Tech Lead Manager at Google in the United States. I specialize in cross-platform applications, particularly with Flutter and Swift. I am excited about solutions that enhance productivity and efficiency."
-Google,United States,part2_senior_engineers_llm,llm,John F.,0.9,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,Google | Senior Staff Software Engineer | Tech Lead,False,"I’m John F., a Senior Staff Software Engineer and Tech Lead at Google. My focus is on leading software development strategies that optimize product performance in cloud computing environments."
+Google,United States,part1_recruiting_rules,rules,Gayatri Iyer,0.978,https://www.linkedin.com/in/gayatri-iyer-a6884a14/,"Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",matched: \btalent acquisition\b | matched: \brecruiter\b | aligned: \bplatform\b | aligned: \bcloud\b | aligned: \bai\b|\bml\b|\bmachine learning\b | matched: company mention,,"Hi Gayatri Iyer,  
+I hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  
+
+If possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  
+
+Thank you for your time. I’d be glad to stay connected.  
+
+Best regards,  
+ABC  
+abc@gmail.com"
+Google,United States,part1_recruiting_rules,rules,Suraj S.,0.93,https://www.linkedin.com/in/snelsur/,"Suraj S. - Talent Acquisition Specialist - Concept Software & Services INC | LinkedIn IT Recruiter @ Concept Software &amp; Services | Talent Acquisition Specialist | Shaping the Career of Talents · Seasoned Talent Acquisition Specialist with extensive experience managing the full recruitment lifecycle for US-based clients, including sourcing, screening, interviewing, and hiring ...",matched: \btalent acquisition\b | matched: \brecruiter\b | aligned: \bsoftware\b | matched: US location,,"Hi Suraj S.,
+I hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.
+
+If possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.
+
+Thank you for your time. I’d be glad to stay connected.
+
+Best regards,
+ABC
+abc@gmail.com"
+Google,United States,part1_recruiting_llm,llm,Gayatri Iyer,0.85,https://www.linkedin.com/in/gayatri-iyer-a6884a14/,"Gayatri Iyer - Talent Acquisition Expert @ Google Cloud | LinkedIn <strong>Hiring for AI/ ML Talent, Security Engineers , Distributed Systems engineers &amp; Engineering Leadership</strong>. ... Operated as a full lifecycle Recruiter for Google Cloud Platform (Oct 2015- Dec 2018), Android &amp; Chrome (Mar 2014 - Sep 2015) &amp; Sourcing ...",at Google | Talent Acquisition | US,False,"Hi Gayatri Iyer,  
+I hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  
+
+If possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  
+
+Thank you for your time. I’d be glad to stay connected.  
+
+Best regards,  
+ABC  
+abc@gmail.com"
+Google,United States,part1_recruiting_llm,llm,Karishma Buxani Stauder,0.85,https://www.linkedin.com/in/kbuxani/,"Karishma Buxani Stauder - Research Scientist Recruiter - Google | LinkedIn • <strong>Full lifecycle recruiter engaging Research Scientists globally from quantum, machine learning, NLP, LLM, CV backgrounds and more</strong>. • Strategize with engineering hiring managers and other stakeholders on growing Google&#x27;s research community.",at Google | Research Scientist Recruiter | US,False,"Hi Karishma Buxani Stauder,  
+I hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  
+
+If possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  
+
+Thank you for your time. I’d be glad to stay connected.  
+
+Best regards,  
+ABC  
+abc@gmail.com"
+Google,United States,part2_senior_engineers_rules,rules,Alex Tessmer,0.995,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | aligned: \bplatform\b | matched: company mention | matched: US location,,"Hi Alex Tessmer,  
+I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  
+  
+A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  
+  
+Thank you so much for your time. I’d truly value your guidance.  
+  
+Best regards,  
+ABC"
+Google,United States,part2_senior_engineers_rules,rules,John F.,0.995,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsoftware architect\b|\barchitect\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | matched: company mention,,"Hi John F.,
+I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.
+
+A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.
+
+Thank you so much for your time. I’d truly value your guidance.
+
+Best regards,
+ABC"
+Google,United States,part2_senior_engineers_llm,llm,Alex Tessmer,1.0,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",Senior Staff Software Engineer | at Google | United States,False,"Hi Alex Tessmer,  
+I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  
+
+A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  
+
+Thank you so much for your time. I’d truly value your guidance.  
+
+Best regards,  
+ABC"
+Google,United States,part2_senior_engineers_llm,llm,John F.,1.0,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,Senior Staff Software Engineer | Tech Lead | Google,False,"Hi John F.,
+I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.
+
+A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.
+
+Thank you so much for your time. I’d truly value your guidance.
+
+Best regards,
+ABC"
