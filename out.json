@@ -52,16 +52,16 @@
         "llm_is_match": false
       },
       {
-        "name": "Karishma Buxani Stauder",
-        "title_snippet": "Karishma Buxani Stauder - Research Scientist Recruiter - Google | LinkedIn • <strong>Full lifecycle recruiter engaging Research Scientists globally from quantum, machine learning, NLP, LLM, CV backgrounds and more</strong>. • Strategize with engineering hiring managers and other stakeholders on growing Google&#x27;s research community.",
-        "profile_url": "https://www.linkedin.com/in/kbuxani/",
+        "name": "Hassan Aslam",
+        "title_snippet": "Hassan Aslam - Talent Acquisition Manager and Sourcing Lead at Google via Algomarketing | LinkedIn Talent Acquisition Manager and Sourcing Lead at Google via Algomarketing · 🚀 Scaling teams &amp; optimizing Talent Acquisition globally With over 8 years of experience in Talent Acquisition, I’ve had the privilege of leading recruitment strategies for some of the world’s top companies, including Google, Cisco, Zoom, Stripe, Open AI and Hexagon AB.",
+        "profile_url": "https://www.linkedin.com/in/thetechrecruiter01/",
         "why_matched": [
           "at Google",
-          "Research Scientist Recruiter",
+          "Talent Acquisition",
           "US"
         ],
         "confidence": 0.85,
-        "message_300": "Hi Karishma Buxani Stauder,  \nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  \n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  \n\nThank you for your time. I’d be glad to stay connected.  \n\nBest regards,  \nABC  \nabc@gmail.com",
+        "message_300": "Hi Hassan Aslam,  \nI hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  \n\nIf possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  \n\nThank you for your time. I’d be glad to stay connected.  \n\nBest regards,  \nABC  \nabc@gmail.com",
         "source": "llm",
         "llm_is_match": false
       }
@@ -83,7 +83,7 @@
           "matched: US location"
         ],
         "confidence": 0.995,
-        "message_300": "Hi Alex Tessmer,  \nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  \n  \nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  \n  \nThank you so much for your time. I’d truly value your guidance.  \n  \nBest regards,  \nABC",
+        "message_300": "Hi Alex Tessmer,  \nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  \n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  \n\nThank you so much for your time. I’d truly value your guidance.  \n\nBest regards,  \nABC",
         "source": "rules",
         "llm_is_match": null
       },
@@ -115,7 +115,8 @@
         "why_matched": [
           "Senior Staff Software Engineer",
           "at Google",
-          "United States"
+          "United States",
+          "Mountain View, CA"
         ],
         "confidence": 1.0,
         "message_300": "Hi Alex Tessmer,  \nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  \n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  \n\nThank you so much for your time. I’d truly value your guidance.  \n\nBest regards,  \nABC",
@@ -128,8 +129,9 @@
         "profile_url": "https://www.linkedin.com/in/john-franco/",
         "why_matched": [
           "Senior Staff Software Engineer",
+          "at Google",
           "Tech Lead",
-          "Google"
+          "United States"
         ],
         "confidence": 1.0,
         "message_300": "Hi John F.,\nI hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.\n\nA bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.\n\nThank you so much for your time. I’d truly value your guidance.\n\nBest regards,\nABC",

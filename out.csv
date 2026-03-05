@@ -29,7 +29,7 @@ Thank you for your time. I’d be glad to stay connected.
 Best regards,  
 ABC  
 abc@gmail.com"
-Google,United States,part1_recruiting_llm,llm,Karishma Buxani Stauder,0.85,https://www.linkedin.com/in/kbuxani/,"Karishma Buxani Stauder - Research Scientist Recruiter - Google | LinkedIn • <strong>Full lifecycle recruiter engaging Research Scientists globally from quantum, machine learning, NLP, LLM, CV backgrounds and more</strong>. • Strategize with engineering hiring managers and other stakeholders on growing Google&#x27;s research community.",at Google | Research Scientist Recruiter | US,False,"Hi Karishma Buxani Stauder,  
+Google,United States,part1_recruiting_llm,llm,Hassan Aslam,0.85,https://www.linkedin.com/in/thetechrecruiter01/,"Hassan Aslam - Talent Acquisition Manager and Sourcing Lead at Google via Algomarketing | LinkedIn Talent Acquisition Manager and Sourcing Lead at Google via Algomarketing · 🚀 Scaling teams &amp; optimizing Talent Acquisition globally With over 8 years of experience in Talent Acquisition, I’ve had the privilege of leading recruitment strategies for some of the world’s top companies, including Google, Cisco, Zoom, Stripe, Open AI and Hexagon AB.",at Google | Talent Acquisition | US,False,"Hi Hassan Aslam,  
 I hope you’re doing well. I’m ABC, a software developer with X years of experience at XYZ and currently pursuing my MS in Computer Science at Rutgers University. I recently applied for a Software Engineer role at Google because the work strongly aligns with my experience building full-stack applications and AI-driven solutions.  
 
 If possible, I would truly appreciate it if you could take a look at my application. If you think my experience aligns with what you are looking for, I'd love to chat about the position as soon as you are available. If not, please guide me on who I should connect with for this role. I’d be very excited about the opportunity to contribute.  
@@ -41,11 +41,11 @@ ABC
 abc@gmail.com"
 Google,United States,part2_senior_engineers_rules,rules,Alex Tessmer,0.995,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | aligned: \bplatform\b | matched: company mention | matched: US location,,"Hi Alex Tessmer,  
 I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  
-  
+
 A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  
-  
+
 Thank you so much for your time. I’d truly value your guidance.  
-  
+
 Best regards,  
 ABC"
 Google,United States,part2_senior_engineers_rules,rules,John F.,0.995,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,matched: \bstaff software engineer\b | matched: \btech lead\b|\btechnical lead\b | matched: \bsoftware architect\b|\barchitect\b | matched: \bsenior\b | matched: \bstaff\b | aligned: \bsoftware\b | aligned: \bengineer\b | matched: company mention,,"Hi John F.,
@@ -57,7 +57,7 @@ Thank you so much for your time. I’d truly value your guidance.
 
 Best regards,
 ABC"
-Google,United States,part2_senior_engineers_llm,llm,Alex Tessmer,1.0,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·",Senior Staff Software Engineer | at Google | United States,False,"Hi Alex Tessmer,  
+Google,United States,part2_senior_engineers_llm,llm,Alex Tessmer,1.0,https://www.linkedin.com/in/alex-tessmer-24347b4/,"Alex Tessmer - Software Engineer - Network Virtualization | LinkedIn United States · Connect · Senior Staff Software Engineer / Tech Lead Manager at Google · Mountain View, CA · Connect · Cross-platform apps expert - Flutter, Swift/SwiftUI · Los Angeles, CA · Connect · San Francisco Bay Area · Connect · Seattle, WA ·","Senior Staff Software Engineer | at Google | United States | Mountain View, CA",False,"Hi Alex Tessmer,  
 I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.  
 
 A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.  
@@ -66,7 +66,7 @@ Thank you so much for your time. I’d truly value your guidance.
 
 Best regards,  
 ABC"
-Google,United States,part2_senior_engineers_llm,llm,John F.,1.0,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,Senior Staff Software Engineer | Tech Lead | Google,False,"Hi John F.,
+Google,United States,part2_senior_engineers_llm,llm,John F.,1.0,https://www.linkedin.com/in/john-franco/,John F. - Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google | LinkedIn Senior Staff Software Engineer | Tech Lead | Individual Contributor - Google · High Performance Computing Software Engineer / Leader / Architect My proven development strategies make software companies more competitive by optimizing all aspects of their product and its delivery.,Senior Staff Software Engineer | at Google | Tech Lead | United States,False,"Hi John F.,
 I hope this isn’t too random. I’m currently exploring opportunities as a software developer at Google. Since you are part of the team, I was wondering if you could please share some tips on navigating the hiring process or maybe even refer me. Thank you for your time. Your guidance would mean a lot to me.
 
 A bit about me: I’m pursuing my MS in Computer Science at Rutgers University and previously worked for X years at XYZ, building full-stack systems and applied AI solutions, including recent work evaluating LLM reasoning frameworks.

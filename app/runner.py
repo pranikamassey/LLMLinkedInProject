@@ -28,6 +28,24 @@ def _guess_name_from_title(title: str) -> str:
     parts = [p.strip() for p in t.split(" - ") if p.strip()]
     return parts[0] if parts else ""
 
+def _first_name(name: str) -> str:
+    """
+    Extract first name only.
+    Examples:
+    'John Smith' -> 'John'
+    'Anjali Srivastava' -> 'Anjali'
+    'John F.' -> 'John'
+    """
+    if not name:
+        return "there"
+
+    name = name.strip()
+    parts = name.split()
+
+    if len(parts) == 0:
+        return "there"
+
+    return parts[0].capitalize()
 
 def _compact_title_snippet(title: str, snippet: str, max_len: int = 600) -> str:
     s = (title or "") + " " + (snippet or "")
@@ -128,7 +146,7 @@ def run_for_company(
                 "confidence": round(float(sc.confidence), 3),
                 "message_300": personalize_message_with_llm(
                 "recruiter",
-                name=_guess_name_from_title(cand.raw_title) or "there",
+                name=_first_name(_guess_name_from_title(cand.raw_title)),
                 company=company,
                 me_blurb=ME_BLURB,
                 me_blurb_long=ME_BLURB_LONG,
@@ -152,7 +170,7 @@ def run_for_company(
                 "confidence": round(float(sc.confidence), 3),
                 "message_300": personalize_message_with_llm(
                 "senior",
-                name=_guess_name_from_title(cand.raw_title) or "there",
+                name=_first_name(_guess_name_from_title(cand.raw_title)),
                 company=company,
                 me_blurb=ME_BLURB,
                 me_blurb_long=ME_BLURB_LONG,
@@ -175,7 +193,7 @@ def run_for_company(
                 "confidence": round(float(item.get("llm_confidence", 0.0)), 3),
                 "message_300": personalize_message_with_llm(
                 "recruiter",
-                name=_guess_name_from_title(item.get("title", "")) or "there",
+                name=_first_name(_guess_name_from_title(item.get("title", ""))),
                 company=company,
                 me_blurb=ME_BLURB,
                 me_blurb_long=ME_BLURB_LONG,
@@ -198,7 +216,7 @@ def run_for_company(
                 "confidence": round(float(item.get("llm_confidence", 0.0)), 3),
                 "message_300": personalize_message_with_llm(
                 "senior",
-                name=_guess_name_from_title(item.get("title", "")) or "there",
+                name=_first_name(_guess_name_from_title(item.get("title", ""))),
                 company=company,
                 me_blurb=ME_BLURB,
                 me_blurb_long=ME_BLURB_LONG,
